@@ -13,7 +13,7 @@ struct ContentView: View {
         // RULE: Use gradients, shapes, sfsymbols etc before resorting to images.  It's much more performant
         
         ZStack {
-            
+            // gradiant across the whole background
             LinearGradient(
                 gradient: Gradient(colors: [Color.red, Color.blue, Color.purple]),
                 startPoint: .topLeading,
